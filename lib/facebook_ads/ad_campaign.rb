@@ -77,7 +77,9 @@ module FacebookAds
         billing_event: billing_event,
         status: status,
         is_autobid: is_autobid,
-        bid_amount: bid_amount
+        bid_amount: bid_amount,
+        publisher_platforms: "facebook",
+        facebook_positions: "feed"
       }
 
       if daily_budget && lifetime_budget
