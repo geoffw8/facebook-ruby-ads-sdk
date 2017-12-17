@@ -65,7 +65,7 @@ module FacebookAds
         app_install_state: app_install_state,
         income: income,
         publisher_platforms: publisher_platforms,
-        facebook_positions: facebook_positions
+        facebook_positions: facebook_positions,
         custom_audiences: custom_audiences
       }.reject { |_k, v| v.nil? }
     end
